@@ -18,7 +18,7 @@ nav{
     padding-right: 100px;
     padding-top: 50px;
     display: flex;
-    flex-wrap: wrap;
+    
     flex-direction: row;
 }
 
@@ -29,14 +29,14 @@ nav{
 .list{
     margin-left: auto;
     display: flex;
-    flex-wrap: wrap;
+    
     margin-right: 50px;
     width: 50%;
 }
 
 hero{
     display: flex;
-    flex-wrap: wrap;
+    
     flex-direction: row;
 }
 
@@ -90,7 +90,6 @@ article{
     margin-bottom: 10%;
     margin-left: -35%;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     z-index: 2;
 }
@@ -98,7 +97,7 @@ article{
 .uppersegment,.lowersegment{
     height: 300px;
     display: flex;
-    flex-wrap: wrap;
+    
 }
 
 .lowersegment{
@@ -107,7 +106,7 @@ article{
 
 .projects{
     display: flex;
-    flex-wrap: wrap;
+    
     flex-direction: column;
 }
 
@@ -183,7 +182,7 @@ img[alt~="imglogo"]{
     margin-right: 100px;
     height: 950px;
     display: flex;
-    flex-wrap: wrap;
+    
     flex-direction: column;
 }
 
@@ -239,7 +238,7 @@ img[alt~="imglogo"]{
     padding-left: 50px;
     height: 340px;
     display: flex;
-    flex-wrap: wrap;
+    
     background-color: #181818;
 }
 
@@ -257,7 +256,7 @@ img[alt~="imglogo"]{
     margin-top: 50px;
     margin-left: 550px;
     display: flex;
-    flex-wrap: wrap;
+    
 }
 
 footer{
@@ -265,7 +264,7 @@ footer{
     margin-left: 100px;
     margin-bottom: 25px;
     display: flex;
-    flex-wrap: wrap;
+    
 }
 
 .logofooter{
@@ -275,4 +274,83 @@ footer{
 
 .social{
     float: right;
+}
+
+
+@media screen and (max-width: 780px){
+
+.list{
+    display: none;
+}
+
+.left-hero{
+    width: 300px;
+}
+
+.hero-details{
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 60%;
+}
+
+.card-group{
+    margin-left: 50px;
+    margin-left: 70px;
+    grid-row-gap: 20px;
+}
+
+.heading{
+    margin-top: 20px;
+}
+
+.template{
+    padding-top: 50px;
+    padding-left: 30px;
+    width: 220px;
+    height: 200px;
+}
+
+.img-container{
+   height: 300px;
+}
+
+.leftside-about{
+    padding-right: 150px;
+    width: 30%;
+}
+
+.lowersegment{
+    margin-top: 35%;
+}
+
+.footerlist{
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+.leftside{
+    width: 100%;
+}
+
+.skill, .skill-active{
+    margin-right: 20px;
+    margin-left: 50px;
+    width: 30%;
+    height: 400px;
+}
+
+.card{
+    width: 200px;
+}
+
+.exp{
+    margin-right: -50px;
+}
+
+.nextwork{
+    height: 600px;
+}
+.heading{
+    grid-template-columns: 70% 30%;
+}
 }
